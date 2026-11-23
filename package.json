@@ -1,0 +1,17 @@
+{
+  "name": "galactic-bedrock-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A basic Minecraft Bedrock connection bot using bedrock-protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bedrock-protocol": "latest",
+    "dotenv": "latest"
+  }
+}
